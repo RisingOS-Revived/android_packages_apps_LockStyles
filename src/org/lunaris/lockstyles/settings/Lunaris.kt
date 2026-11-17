@@ -24,8 +24,8 @@ import android.util.Log
 object Lunaris {
 
     private const val TAG = "Lunaris"
-    private const val UTILS = "com.android.internal.util.lunaris.Utils"
-    private const val THEME_UTILS = "com.android.internal.util.lunaris.ThemeUtils"
+    private const val UTILS = "com.android.internal.util.android.Utils"
+    private const val THEME_UTILS = "com.android.internal.util.android.ThemeUtils"
     private const val OMNIJAWS = "org.omnirom.omnijaws"
     private val OMNIJAWS_SETTINGS = Uri.parse("content://org.omnirom.omnijaws.provider/settings")
     private const val PROP_CUSTOM_UDFPS = "persist.sys.udfps.custom"
